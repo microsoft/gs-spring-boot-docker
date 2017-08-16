@@ -58,7 +58,7 @@ In the `pom.xml`, configure the `<docker.image.prefix>` with your docker registr
 
 ## Run this demo
 
-You can combine the following commands into one line:
+You can combine the following commands into one line or run them separately:
 
 ```bash
 mvn package docker:build docker:push fabric8:secrets fabric8:resource fabric8:apply-secrets fabric8:apply

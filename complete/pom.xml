@@ -56,7 +56,7 @@
                 <artifactId>fabric8-maven-plugin</artifactId>
                 <version>3.5-SNAPSHOT</version>
                 <configuration>
-                    <ignoreServices>true</ignoreServices>
+<!--                     <ignoreServices>true</ignoreServices> -->
                     <registry>${docker.image.prefix}</registry>
                 </configuration>
             </plugin>
